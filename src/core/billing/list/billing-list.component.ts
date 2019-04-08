@@ -1,5 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Billing } from 'src/core/model/billing';
+import { Component, Input } from '@angular/core';
 import { BillingHistory } from 'src/core/model/billing-history';
 import { BillingService } from 'src/core/service/billing.service';
 

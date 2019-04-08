@@ -39,7 +39,7 @@ export class BillingService {
       }
     });
     this.updateTotalPrice();
-  };
+  }
 
   public remove(item: BillingHistory): void {
     this.billingHistories = this.billingHistories.filter(history => history !== item);
